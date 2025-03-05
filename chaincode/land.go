@@ -14,9 +14,9 @@ type SmartContract struct {
 
 // Land represents a land record
 type Land struct {
-	LandID   string `json:"LandID"`
-	Owner    string `json:"Owner"`
-	Location string `json:"Location"`
+	LandID   string `json:"landID"`
+	Owner    string `json:"ownerName"`
+	Location string `json:"location"`
 }
 
 // RegisterLand creates a new land record
